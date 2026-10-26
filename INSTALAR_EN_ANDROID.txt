@@ -1,0 +1,14 @@
+INSTALAR LA POKEDEX EN ANDROID
+
+Esta versión es una PWA (aplicación web instalable). Para instalarla como una aplicación en el teléfono:
+
+1. Publica la carpeta pokedex_pwa en GitHub Pages o en un alojamiento HTTPS.
+2. En tu Android, abre en Google Chrome la URL pública de la Pokédex (la dirección de GitHub Pages).
+3. Espera a que termine de cargar.
+4. Toca el menú de Chrome (⋮) y elige “Instalar aplicación” o “Añadir a pantalla de inicio”. El texto puede variar según la versión de Chrome.
+5. Confirma la instalación. Aparecerá un icono de Pokédex en la pantalla de aplicaciones y podrás abrirla a pantalla completa.
+
+IMPORTANTE:
+- No se instala abriendo el ZIP ni el archivo HTML directamente; debe estar publicado mediante HTTPS.
+- La app puede guardar en caché parte de su interfaz, pero la consulta de datos Pokémon necesita conexión a Internet.
+- Este paquete es una PWA instalable, no un APK nativo. No requiere descargar un APK ni habilitar “orígenes desconocidos”.

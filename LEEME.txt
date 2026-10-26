@@ -1,0 +1,21 @@
+POKEDEX INSTALABLE EN ANDROID (PWA) — ACTUALIZACIÓN DE FORMAS
+
+Este paquete es una aplicación web instalable (PWA), no un APK nativo. Se publica en HTTPS y luego se puede añadir a la pantalla de inicio del teléfono.
+
+NOVEDADES:
+- Filtros de Mega-evoluciones y formas regionales (Alola, Galar, Hisui y Paldea).
+- Apartados Dynamax y Gigantamax. Dynamax es una mecánica de combate; el filtro muestra Pokémon con Gigantamax conocido, que también pueden usar Dynamax en juegos compatibles.
+- Formas relacionadas con clima/estaciones y otras formas alternativas, cuando aparecen registradas en PokéAPI.
+- Etiquetas explicativas en las fichas.
+
+PUBLICAR CON GITHUB PAGES:
+1. Entra en https://github.com/new y crea un repositorio público llamado pokedex-app.
+2. Sube TODOS los archivos y carpetas de este paquete (index.html, pokedex_movil.html, manifest.webmanifest, sw.js, icons/).
+3. En Settings > Pages, selecciona “Deploy from a branch”, rama “main”, carpeta “/ (root)” y guarda.
+4. Espera a que se publique y abre la URL HTTPS en Chrome en tu Samsung S23 Plus.
+5. En Chrome pulsa ⋮ > “Añadir a pantalla de inicio” o “Instalar aplicación”.
+
+La Pokédex consulta PokéAPI y necesita internet para cargar el catálogo, las fichas y las imágenes. La cobertura de formas depende de los datos que exponga la API. Para obtener un APK nativo habría que envolver y compilar el proyecto con Android Studio.
+
+
+Créditos: Creación y desarrollo de la aplicación por Bastián Alfaro Zúñiga. Los datos se consultan mediante PokéAPI (API pública no oficial). Pokémon, nombres, imágenes y marcas relacionadas pertenecen a sus respectivos titulares. Proyecto independiente, no afiliado ni aprobado por The Pokémon Company.
